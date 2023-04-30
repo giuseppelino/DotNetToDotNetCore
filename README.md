@@ -37,7 +37,7 @@ The install script in this repository will enable the approprate service apis, c
 
 1. Clone the repository
 ```bash
-git clone https://github.com/jjdelorme/EventsSample --depth=1
+git clone https://github.com/giuseppelino/DotNetToDotNetCore --depth=1
 ```
 
 2. Either create a project in the Google Cloud Console, or run this script to create a project associated with a billling acount in the format: `0FFFFF-EEEEEE-333333`.  To find your billing account run `gcloud alpha billing accounts list`.
