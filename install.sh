@@ -14,7 +14,7 @@ SERVICE_ACCOUNT="$SA_NAME@$PROJECT_ID.iam.gserviceaccount.com"
 BUILD_SERVICE_ACCOUNT="$PROJECT_NUMBER@cloudbuild.gserviceaccount.com"
 
 # Required for Firestore
-APPENGINE_REGION=us-central1-a
+APPENGINE_REGION=us-east1
 
 # Ensure gcloud has run and configured access to a project.
 [[ -z "$PROJECT_ID" ]] && { echo "ERROR: Please ensure gcloud init has run prior." ; exit 1; }
