@@ -5,7 +5,7 @@ set -e
 # This script will configure a GCP project to run the sample application
 # by enabling the required APIs and permissions.  It will also create an
 # RSA key pair for JWT token signing and store as Secret Manager secrets.
-#
+# Test
 
 PROJECT_ID=`gcloud config list --format 'value(core.project)' 2>/dev/null`
 PROJECT_NUMBER=`gcloud projects describe $PROJECT_ID --format="value(projectNumber)"`
